@@ -1,0 +1,5 @@
+<!doctype html>
+<html lang="nl">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>PEGO Opslagcheck</title></head>
+<body style="margin:0;background:#061b42;color:white;font-family:Arial,sans-serif"><div id="loading" style="padding:30px;text-align:center">PEGO Opslagcheck laden…</div><script>(async()=>{try{let s='';for(let i=0;i<8;i++){const r=await fetch('parts/p'+i+'.txt',{cache:'no-store'});if(!r.ok)throw new Error('bestand '+i);s+=await r.text()}document.open();document.write(s);document.close()}catch(err){document.getElementById('loading').textContent='De PEGO Opslagcheck kon niet worden geladen.';console.error(err)}})();</script></body>
+</html>
